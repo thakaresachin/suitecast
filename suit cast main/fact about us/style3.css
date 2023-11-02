@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.flex{
+    display: flex;
+    
+}
+.logo img{
+   height: 1.9rem;
+   padding: 0.55rem;
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    padding-top: 0.9rem;
+    padding-left:5rem;
+    padding-right: 5rem;
+    background-color: #9ed2c4;
+    padding-bottom: .8rem;
+}
+.ul{
+    list-style: none;
+    gap: 1.5rem;
+    padding:1rem;
+    font-size: 1rem;
+}
+.links a{
+    background-color: #344b87;
+    color: white;
+    text-decoration: none;
+    padding:0.7rem;
+    border-radius: 0.25rem;  
+}
+/* navbar completed */
+.left-contener2 h5{
+    color: #9ed2c4;
+    font-size: 1rem;
+}
+.left-contener2 h1{
+    font-size: 2.5rem;
+    color: #30749f;
+}
+
+.main-contener2{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.left-contener2{
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 50%;  
+    
+}
+.left-contener2 p{
+    line-height: 1.45rem;
+}
+.right-contener2{
+    padding-left: 25rem;
+}
+/* main contener complet */
+.mesho{
+    background-color: #344b87;
+    padding-left: 10rem;
+    padding-right: 10rem; 
+    padding-top: 3rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+}
+.text-links{
+    padding-left: 12rem;
+    color: white;
+}
+.text-links h5{
+    color:  #9ed2c4;
+}
+/* mesho contener completed */
+.staf{
+    padding-top: 2rem;
+    background-color: #eaeaea;
+    padding-bottom: 3rem;
+}
+.texts{
+    text-align: center;
+}
+.stafs-photos{
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    padding-bottom: 2rem;
+
+}
+.staf1{
+    
+    border: solid #cee8e1 6rem;
+}
+.hi{
+    border-radius: 0rem 1rem 1rem 0rem;
+
+}
+.hi h3,p{
+}
+.names{
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    background-color: white;
+}
+/* staf completed */
+.footer{
+    background-color: #344b87;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    justify-content: space-between;
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+}
+.footer ul,li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer ul li input{
+    padding: .5rem 2rem .5rem 2rem;
+}

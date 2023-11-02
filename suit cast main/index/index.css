@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px){
+  .main-contener{
+    /* overflow: none; */
+    padding: 0 ;
+    
+  }
+ .links-contener{
+    display: none;
+ }
+ .main-contener-part{
+    flex-direction: column;
+}
+.main-contener-part-left{
+    max-width: 100%;
+    padding: 0;
+}
+
+}

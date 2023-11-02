@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.flex{
+    display: flex;
+    
+}
+.logo img{
+   height: 1.9rem;
+   padding: 0.55rem;
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    padding-top: 0.9rem;
+}
+.ul{
+    list-style: none;
+    gap: 1.5rem;
+    padding:1rem;
+    font-size: 1rem;
+}
+.links a{
+    background-color: #344b87;
+    color: white;
+    text-decoration: none;
+    padding:0.7rem;
+    border-radius: 0.25rem;
+   
+}
+.main-contener{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    width: fit-content;
+    background-image: radial-gradient(50.07% 50.07% at 33.75% 49.93%, rgb(52, 75, 135) 0%, rgb(158, 210, 196) 100%);
+}
+.main-contener-part{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.main-contener-part-left{
+     color: white;
+     max-width: 40%; 
+     padding-right: 10rem;
+     font-size: 1.25rem;
+}
+
+.main-contener-part-left h1,p{
+    padding-top: 1rem;
+}
+.Get-in-touch{
+    background-color: #344b87;
+    color: white;
+    text-decoration: none;
+    padding:0.7rem 3rem 0.7em 3rem;
+}
+.Get-in-touch:hover{
+    background-color: #6cbbe8;
+    transition-duration: 1s;
+}
+.btn{
+    padding-top: 3rem;
+}
+.main-contener-part-right{
+    padding-top: 2rem;
+}
+/* main-contener-complet */
+.mid-part{
+    padding: 3rem;
+    background-color: #344b87;
+    justify-content: space-between;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+.about{
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    gap: .5rem;
+    padding-bottom: 3rem;
+}
+.about-h5{
+    font-size: 1rem;
+    color: aquamarine;
+}
+.about-h3{
+    font-size:2rem;
+    color: #344b87;
+}
+.about p{
+    text-align: center;
+    font-size:0.95rem;
+}
+.progects-contener{
+    background-color:#c3ded7;
+    height: 20rem;
+   text-align: center;
+   color: #344b87;
+   padding-top: 2rem;
+}
+.progect-counts{
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.progect-counts ul{
+    list-style: none;
+    /* padding-top: 4rem; */
+}
+.progect-counts ul li{
+    padding-top: 4rem;
+}
+.counts-size{
+    font-size: 4rem;
+    font: bolder ;
+}
+/* progect-contener */
+
+.what-you-know{
+    background-color: #344b87;
+    /* height: 35rem; */
+    padding-left: 9rem;
+    /* padding-right: 7rem; */
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.left-what-you-know{
+    max-width: 30%;
+    font-size: 1rem;
+    padding-top: 7rem;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 20%;
+}
+.btn2 a{
+    text-decoration: none;
+    background-color: #cee8e1;
+    border-radius: 0.25rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+.btn2:hover a{
+        background-color: rgb(82, 96, 227);
+        transition-duration: 1s;
+}
+.right-what-you-know{
+    /* padding-left: 1rem; */
+    /* justify-content: space-between; *
+    /*  */
+    display: flex;
+    gap: -33rem;
+}
+.right-subleft ul{
+    list-style: none;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    
+    
+}
+.right-subleft li{
+    text-decoration: none;
+   background-color: #344b87;
+   border: 0.001px solid white;
+    padding: 3em 6em 3em 6em;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+.right-subright ul{ 
+    list-style: none;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    
+}
+.right-subright li{
+    text-decoration: none;
+    background-color: #344b87;
+    border: 0.001px solid white;
+    padding: 3rem 8rem 3rem 8rem;
+    border-radius: 2rem;
+    text-align: center;
+   
+}
+ /* what you know */
+.none-div{
+    text-align: center;
+    color: #344b87;
+}
+.none-div h1{
+    padding: 2rem;
+}
+.services-contener{
+        background-color:#c3ded7;
+        padding: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        justify-content: space-between;
+}
+/* services */
+.Industry-specific-solutions{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #eaeaea;
+}
+.Industry-specific-solutions-left {
+    padding-top: 5rem;
+    color: #344b87;
+    
+}
+.Industry-specific-solutions-left ul{
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    /* max-width: 73%; */
+}
+.Industry-specific-solutions-left ul li{
+   background-color: white;
+    padding: 1rem 8rem 2rem 2rem;
+    padding-top: 2rem;
+    padding-right: 30rem;
+}
+.Industry-specific-solutions-right img{
+         width: 25rem;
+         padding-top: 4rem;
+         padding-left: 2rem;
+        
+}
+.bottom-main{
+    background-color: #eaeaea;
+    padding: 5rem 8rem 5rem 8rem 
+}
+.bottom{
+    background-color: #30749f;
+    padding: 4rem 8rem 4rem 8rem;
+}
+.button-sub{
+    background-color: white;
+   text-align: center;
+   margin-left: 15rem;
+   margin-right: 15rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-radius: .2rem;
+    
+}
+/* bottom main */
+.footer{
+    background-color: #344b87;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    justify-content: space-between;
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+}
+.footer ul,li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer ul li input{
+    padding: .5rem 2rem .5rem 2rem;
+}

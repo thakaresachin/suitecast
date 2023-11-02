@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.flex{
+    display: flex;
+    
+}
+.logo img{
+   height: 1.9rem;
+   padding: 0.55rem;
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    padding-top: 0.9rem;
+    padding-left:5rem;
+    padding-right: 5rem;
+    background-color: #9ed2c4;
+}
+.ul{
+    list-style: none;
+    gap: 1.5rem;
+    padding:1rem;
+    font-size: 1rem;
+}
+.links a{
+    background-color: #344b87;
+    color: white;
+    text-decoration: none;
+    padding:0.7rem;
+    border-radius: 0.25rem;  
+}
+/* navbar completed */
+.mid-div{
+    background: radial-gradient(circle, rgb(158, 210, 196) 0%, rgb(52, 75, 135) 76%);
+   padding-left: 6rem;
+   padding-right: 6rem;
+   padding-top: 11rem;
+   padding-bottom: 11rem;
+   color: white;
+}
+.mid-div h1{
+    font-size: 4rem;
+}
